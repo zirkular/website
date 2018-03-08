@@ -5,7 +5,7 @@
   <header>
     <p style="font-size: 20pt;">{{ .Title }}</p>
   </header>
-  {{ range .Paginator.Pages.Reverse }}
+  {{ range .Paginator.Pages }}
     {{ partial "page-summary.html" . }}
   {{ end }}
 {{ end }}
