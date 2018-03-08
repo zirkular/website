@@ -1,0 +1,6 @@
+[submodule "themes/air"]
+	path = themes/air
+	url = git@github.com:syui/hugo-theme-air.git
+[submodule "themes/afterdark"]
+	path = themes/afterdark
+	url = git@github.com:comfusion/after-dark.git
