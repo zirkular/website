@@ -1,6 +1,3 @@
-{{ define "title" -}}
-  {{ .Site.Title }}
-{{- end }}
 {{ define "header" }}
   {{ partial "menu.html" . }}
 {{ end }}
@@ -8,10 +5,10 @@
   <header>
     <p style="font-size: 20pt;">{{ .Title }}</p>
   </header>
-  <main>
-      {{ .Content }}
-  </main>
+  {{ range .Paginator.Pages.Reverse }}
+    {{ partial "page-summary.html" . }}
+  {{ end }}
 {{ end }}
 {{ define "footer" }}
-
+  {{ partial "pagination.html" . }}
 {{ end }}
