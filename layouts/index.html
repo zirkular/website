@@ -11,8 +11,17 @@
     <script src="{{ .Site.BaseURL }}js/particles.js"></script>
   </header>
   <main>
-    <p style="font-size: 50pt;">zirkular</p>
+    <p style="font-size: 50pt; margin-top: 40%;">zirkular</p>
     code.life.balance.
+    <div style="margin-top: 150pt;">
+        <p style="font-size: 18pt; margin-top: 0pt;">Projects</p>
+        {{ range .Paginator.Pages }}
+          {{ if eq .Section "projects" }}
+            {{ partial "page-summary.html" . }}
+          {{ end }}
+        {{ end }}
+    </div>
+    
   </main>
 {{ end }}
 {{ define "footer" }}
