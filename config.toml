@@ -6,22 +6,22 @@ DefaultContentLanguage = "de"
 font = "Open+Sans"
 
 [menu]
-    [[menu.main]]
-    identifier = "home"
-    name       = "Home"
-    url        = "/"
-    weight     = 1
+ #   [[menu.main]]
+ #   identifier = "home"
+ #   name       = "Home"
+ #   url        = "/"
+ #   weight     = 1
 
-    [[menu.main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "/projects/"
-    weight     = 2
+ #   [[menu.main]]
+ #   identifier = "projects"
+ #   name       = "Projects"
+ #   url        = "/projects/"
+ #   weight     = 2
 
-    [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about/"
-    weight     = 3
+ #  [[menu.main]]
+ #   identifier = "about"
+ #   name       = "About"
+ #   url        = "/about/"
+ #   weight     = 3
 
 
