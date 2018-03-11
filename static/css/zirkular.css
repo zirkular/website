@@ -1,9 +1,20 @@
-article.project-grid {
+.vip-projects {
+    margin-top: 350pt; 
+    display: block;
+    min-height: 350pt;
+}
+
+article.vip-project {
     width: 46%;
     height: 350pt;
     float: left;
     margin-right: 4%;
     display: block;
+}
+
+.what-who {
+    font-size: smaller;
+    margin: 10pt 0 20pt 0;
 }
 
 /* article .thumbnail {
@@ -21,7 +32,10 @@ article .thumbnail img {
 }
 
 .footer {
-    font-size: smaller;
+    position: relative;
+    margin-top: 150pt !important;
+    height: 70pt;
+    font-size: small;
 }
 
 .footer .left {

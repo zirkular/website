@@ -10,6 +10,11 @@
     <p style="font-size: 18pt;">{{ .Title }}</p>
   </header>
   <main class="content">
+      <img src="{{ .Params.image }}" alt=".Site.Title">
+      <div class="what-who">
+          {{ .Params.what }}<br>
+          {{ .Params.who }}
+      </div>
       {{ .Content }}
   </main>
 {{ end }}
