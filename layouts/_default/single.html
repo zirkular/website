@@ -3,16 +3,17 @@
 {{- end }}
 {{ define "header" }}
   {{ partial "menu.html" . }}
+  {{ partial "header.html" . }}
 {{ end }}
 {{ define "main" }}
   <header>
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/zirkular.css">
     <p style="font-size: 18pt;">{{ .Title }}</p>
   </header>
-  <main>
+  <main class="content">
       {{ .Content }}
   </main>
 {{ end }}
 {{ define "footer" }}
-
+  {{ partial "footer.html" . }}
 {{ end }}
+

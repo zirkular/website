@@ -1,3 +1,21 @@
-img {
+article.project-grid {
+    width: 46%;
+    height: 350pt;
+    float: left;
+    margin-right: 4%;
+    display: block;
+}
+
+/* article .thumbnail {
+    width: 46%;
+    height: 200pt;
+} */
+
+article .thumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content img {
     width: 100%;
 }
