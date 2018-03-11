@@ -8,6 +8,9 @@ thumbnail: ../../img/aiyp_2017_day_thumb.jpg
 
 {{< vimeo 259562325 >}}
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat.
+Projection Mapping<br>
+AYIP Festival 2017
+
+Hidden in the wilderness of Germanys true north the annual AIYP festival attracts young folks from near and far. To illuminate the nightly darkness and give the dancing herd a point of reference we covered the lamps created by Lichtloch in an otherworldly glow.
 
 ![alt text](../../img/aiyp_2017_day.jpg "AIYP 2017 Day")
