@@ -11,7 +11,7 @@
     <div style="margin-top: 350pt;">
         <p style="font-size: 18pt; margin-top: 0pt;">Projects</p>
         {{ range .Paginator.Pages }}
-          {{ if eq .Section "projects" }}
+          {{ if eq .Params.vip true }}
             {{ partial "projects.html" . }}
           {{ end }}
         {{ end }}

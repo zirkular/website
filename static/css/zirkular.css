@@ -19,3 +19,15 @@ article .thumbnail img {
 .content img {
     width: 100%;
 }
+
+.footer {
+    font-size: smaller;
+}
+
+.footer .left {
+    float: left;
+}
+
+.footer .right {
+    float: right;
+}

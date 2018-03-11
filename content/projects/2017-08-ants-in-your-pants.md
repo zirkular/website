@@ -2,6 +2,7 @@
 title: "AIYP 2017"
 date: 2017-08-01T13:24:22+01:00
 draft: false
+vip: false
 thumbnail: ../../img/aiyp_2017_day_thumb.jpg
 ---
 
