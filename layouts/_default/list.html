@@ -1,5 +1,6 @@
 {{ define "header" }}
   {{ partial "menu.html" . }}
+  {{ partial "header.html" . }}
 {{ end }}
 {{ define "main" }}
   <header>
@@ -8,9 +9,6 @@
   {{ range .Paginator.Pages }}
     {{ partial "page-summary.html" . }}
   {{ end }}
-{{ end }}
-{{ define "footer" }}
-  {{ partial "pagination.html" . }}
 {{ end }}
 {{ define "footer" }}
   {{ partial "footer.html" . }}

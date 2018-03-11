@@ -2,9 +2,11 @@
 title: "About"
 date: 2018-03-08T13:24:22+01:00
 draft: false
+thumbnail: 
+image: ../../img/about.png
+what: Zirkular is a Berlin-based collective for generative design, coding and transmedia content.
+who: Having a background in IT and theoretical physics, we share an interest in harvesting the hidden potential of science and technology for arts and society.
 ---
-
-Zirkular is a Berlin-based collective for generative design, coding and transmedia content. Having a background in IT and theoretical physics, we share an interest in harvesting the hidden potential of science and technology for arts and society.
 
 ## Michael
 
