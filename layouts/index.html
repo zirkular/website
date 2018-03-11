@@ -6,8 +6,14 @@
   {{ partial "menu.html" . }}
 {{ end }}
 {{ define "main" }}
-    <p style="font-size: 50pt; margin-top: 40%;">zirkular</p>
-    code.life.balance.
+    <div style="height: 100vh; padding-top: 40%;">
+        <p style="font-size: 50pt;">zirkular</p>
+        code.life.balance.
+    </div>
+    <div class="services" style="font-size: normal;">
+        CREATIVE CODING | PROJECTION MAPPING | VIRTUAL REALITY | 
+        WEB DEVELOPMENT | VIDEO EDITING | GENERATIVE DESIGN | BULLSHIT
+    </div>
     <div class="vip-projects">
         <p style="font-size: 18pt; margin-top: 0pt;">Upcoming</p>
         {{ range .Paginator.Pages }}
