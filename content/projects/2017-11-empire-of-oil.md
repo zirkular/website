@@ -14,3 +14,7 @@ Empire of Oil explores the ambiguity of the oil industry by comparing Norway and
 Between November 2017 and May 2018, the group will develop three intermedial performances and a virtual reality film, based on 360°-video material filmed on-site in Stavanger, Bergen, Kristiansand, Erbil, Sulaymaniyah, Kirkuk and Mosul, the latter during the Kurdish referendum and closure of the air-space.
 
 ![alt text](../../img/empire_pt2.jpg "EMPIRE OF OIL Part 2")
+
+Links:<br>
+http://www.costacompagnie.org/de/2017/06/13/empire_of_oil/<br>
+http://www.taz.de/!5479496/

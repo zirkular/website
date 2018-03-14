@@ -2,13 +2,15 @@
 title: "Impressum"
 date: 2018-03-08T13:24:22+01:00
 draft: false
+vip: false
+thumbnail: ../../img/impressum.png
+image: ../../img/impressum.png
+what: Verantwortlich für den Inhalt und Inhaber der Domain.
+who: Erik Kundt, Beermannstr. 8, 12435 Berlin
 ---
 
-Verantwortlich für den Inhalt und Inhaber der Domain:
 
-Erik Kundt<br>
-Beermannstr. 8<br>
-12435 Berlin<br>
+
 
 # Haftungsausschluss
 
