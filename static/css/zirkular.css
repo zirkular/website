@@ -1,3 +1,8 @@
+#home {
+    height: 85vh; 
+    padding-top: 30%;
+}
+
 .vip-projects {
     margin-top: 50pt; 
     display: block;
@@ -12,9 +17,13 @@ article.vip-project {
     display: block;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     article.vip-project {
         width: 100%;
+    }
+    #home {
+        height: 70vh;
+        padding-top: 30%;
     }
 }
 
