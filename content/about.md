@@ -15,6 +15,8 @@ For general questions, please send an email to [zirkular@systemli.org](mailto:zi
 
 ## Erik
 
+- github: [@erak](https://github.com/erak)
+
 ### Upcoming
 
 - 2018-2020: [INDEPENDENCE // Costa Compagnie](http://www.costacompagnie.org/en/2019/01/07/fight-for-independence/)
@@ -37,4 +39,10 @@ Erik works as software developer and media artist in the field of audio / visual
 ## Michael
 
 Has left academia to work on projects of more immediate human response. Strong background in code development, scientific computing and data analysis. 
+
+## Friends
+
+This website is hosted by our folks at [borg's friendly family hosting](https://borg.sh).
+
+Our email is provided by your friendly tech collective [systemli.org](https://www.systemli.org).
 

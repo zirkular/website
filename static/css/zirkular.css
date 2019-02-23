@@ -31,6 +31,10 @@ div.header p {
     padding-top: 30vh;
 }
 
+.services {
+    text-align: left;
+}
+
 .vip-projects {
     margin-top: 50pt; 
     display: block;
