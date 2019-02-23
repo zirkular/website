@@ -1,7 +1,7 @@
 ---
 title: "EMPIRE OF OIL by Costa Compagnie"
 date: 2017-11-01T13:24:22+01:00
-draft: false
+draft: true
 vip: true
 thumbnail: ../../img/empire_pt2_thumb.jpg
 image: ../../img/empire_pt1.jpg

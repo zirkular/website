@@ -11,16 +11,7 @@
         code.life.balance.
     </div>
     <div class="services" style="font-size: normal;">
-        CREATIVE CODING | PROJECTION MAPPING | VIRTUAL REALITY | 
-        WEB DEVELOPMENT | VIDEO PRODUCTION | GENERATIVE DESIGN | AUDIO / VIDEO PERFORMANCES
-    </div>
-    <div class="vip-projects">
-        <p style="font-size: 18pt; margin-top: 0pt;">Upcoming</p>
-        {{ range .Paginator.Pages }}
-          {{ if eq .Params.vip true }}
-            {{ partial "projects.html" . }}
-          {{ end }}
-        {{ end }}
+        CREATIVE CODING | VIDEO PRODUCTION & MAPPING | VIRTUAL REALITY | AUDIO / VIDEO PERFORMANCES
     </div>
 {{ end }}
 {{ define "footer" }}

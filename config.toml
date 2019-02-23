@@ -1,7 +1,7 @@
 baseURL = "https://zirkular.io/"
 languageCode = "en-us"
 title = "zirkular"
-theme = "afterdark"
+theme = "after-dark"
 DefaultContentLanguage = "de"
 font = "Open+Sans"
 
