@@ -1,6 +1,34 @@
+h1 {
+    margin-top: 5vh !important;
+}
+h2 {
+    margin-top: 4vh !important;
+}
+h3 {
+    margin-top: 3vh !important;
+}
+h4 {
+    margin-top: 2vh !important;
+}
+h5 {
+    margin-top: 1vh !important;
+}
+
+main {
+    min-height: 90vh;
+}
+
+div.header {
+    margin: 5vh 0 0 0;
+}
+
+div.header p {
+    font-size: 18pt;
+}
+
 #home {
     height: 85vh; 
-    padding-top: 30%;
+    padding-top: 30vh;
 }
 
 .vip-projects {
@@ -21,21 +49,12 @@ article.vip-project {
     article.vip-project {
         width: 100%;
     }
-    #home {
-        height: 70vh;
-        padding-top: 40%;
-    }
 }
 
 .what-who {
     font-size: smaller;
     margin: 10pt 0 20pt 0;
 }
-
-/* article .thumbnail {
-    width: 46%;
-    height: 200pt;
-} */
 
 article .thumbnail img {
     max-width: 100%;
@@ -44,19 +63,20 @@ article .thumbnail img {
 
 .content img {
     width: 100%;
+    min-height: 0;
 }
 
-.footer {
+footer .impress {
     position: relative;
-    margin-top: 150pt !important;
-    height: 70pt;
+    height: 5vh;
+    margin-top: 5vh;
     font-size: small;
 }
 
-.footer .left {
+footer .impress .left {
     float: left;
 }
 
-.footer .right {
+footer .impress .right {
     float: right;
 }

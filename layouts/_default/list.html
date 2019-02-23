@@ -3,9 +3,9 @@
   {{ partial "header.html" . }}
 {{ end }}
 {{ define "main" }}
-  <header>
-    <p style="font-size: 20pt;">{{ .Title }}</p>
-  </header>
+  <div class="header">
+    <p>{{ .Title }}</p>
+  </div>
   {{ range .Paginator.Pages }}
     {{ partial "page-summary.html" . }}
   {{ end }}

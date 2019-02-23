@@ -6,11 +6,13 @@
   {{ partial "header.html" . }}
 {{ end }}
 {{ define "main" }}
-  <header>
-    <p style="font-size: 18pt;">{{ .Title }}</p>
-  </header>
+  <div class="header">
+    <p>{{ .Title }}</p>
+  </div>
   <main class="content">
-      <img src="{{ .Params.image }}" alt=".Site.Title">
+      {{ if .Params.image }}
+        <img src="{{ .Params.image }}" alt="">
+      {{ end }}
       <div class="what-who">
           {{ .Params.what }}<br>
           {{ .Params.who }}
