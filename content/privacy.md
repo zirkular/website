@@ -7,42 +7,42 @@ what: This privacy policy has been compiled to better serve those who are concer
 who: 
 ---
 
-## What personal information do we collect from the people that visit our blog, website or app?
+### What personal information do we collect from the people that visit our blog, website or app?
 
 None.
 
-## When do we collect information?
+### When do we collect information?
 
 Never.
 
-## How do we use your information?
+### How do we use your information?
 
 In no way.
 
-## How do we protect visitor information?
+### How do we protect visitor information?
 
 Our website is scanned on a regular basis for security holes and known vulnerabilities in order to make your visit to our site as safe as possible.
 
-## Do we use 'cookies'?
+### Do we use 'cookies'?
 
 No.
 
-## How can you opt out, remove or modify information you have provided to us?
+### How can you opt out, remove or modify information you have provided to us?
 
 You do not need to.
 
-## Third Party Disclosures
+### Third Party Disclosures
 
 We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide you with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect ours or others' rights, property, or safety.
 
 However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.
 
-### Third party Links
+#### Third party Links
 
 Occasionally, at our discretion, we may include or offer third party products or services on our website. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.
 
 
-### Information Regarding Your Data Protection Rights Under General Data Protection Regulation (GDPR)
+#### Information Regarding Your Data Protection Rights Under General Data Protection Regulation (GDPR)
 
 ## Contacting Us
 
