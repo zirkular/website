@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>zirkular.io</title>
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+    <script
+        src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-state-component@6.7.0/dist/aframe-state-component.min.js"></script>
+
+    <script>
+        function findGetParameter(parameterName) {
+            var result = null,
+                tmp = [];
+            location.search
+                .substr(1)
+                .split("&")
+                .forEach(function (item) {
+                    tmp = item.split("=");
+                    if (tmp[0] === parameterName) 
+                        result = decodeURIComponent(tmp[1]);
+                });
+            return result;
+        }
+
+        AFRAME.registerState({
+            initialState: {
+                shoppingList: [
+                    { name: 'milk', amount: 2 },
+                    { name: 'eggs', amount: 12 }
+                ],
+                box_00: { x: 0, y: 0.8, z: 0 },
+                box_00: { x: 0, y: 0.8, z: -2 },
+                box_01: { x: 0, y: 0.8, z: -4 },
+                box_02: { x: 0, y: 0.8, z: -6 },
+                box_03: { x: 0, y: 0.8, z: -8 },
+                box_04: { x: 0, y: 0.8, z: -10 },
+                box_05: { x: 0, y: 0.8, z: -12 },
+                box_06: { x: 0, y: 0.8, z: -14 },
+                box_07: { x: 0, y: 0.8, z: -16 },
+            },
+
+            handlers: {
+                timeUpdated: function (state, action) {
+                    var offset = action.delta * 0.0005;
+                    // var wave_offset = Math.sin();
+
+                    // state.box_00.x -= offset;
+                    // state.box_00.y += Math.sin(state.box_00.y) * 0.001;
+                    state.box_00.z += offset;
+
+                    // state.box_01.x -= offset;
+                    // state.box_01.y += Math.sin(state.box_01.y) * 0.002;
+                    state.box_01.z += offset;
+
+                    // state.box_02.x -= offset;
+                    // state.box_02.y += Math.sin(state.box_02.y) * 0.003;
+                    state.box_02.z += offset;
+
+                    // state.box_03.x -= offset;
+                    // state.box_03.y += Math.sin(state.box_03.y) * 0.004;
+                    state.box_03.z += offset;
+
+                    // state.box_04.x -= offset;
+                    // state.box_04.y += Math.sin(state.box_04.y) * 0.003;
+                    state.box_04.z += offset;
+
+                    // state.box_05.x -= offset;
+                    // state.box_05.y += Math.sin(state.box_05.y) * 0.002;
+                    state.box_05.z += offset;
+
+                    // state.box_06.x -= offset;
+                    // state.box_06.y += Math.sin(state.box_06.y) * 0.001;
+                    state.box_06.z += offset;
+
+                    // state.box_07.x -= offset;
+                    // state.box_07.y += Math.sin(state.box_07.y) * 0.0005;
+                    state.box_07.z += offset;
+
+                    // console.log(findGetParameter("showVR"));
+                    // console.log("timeUpdated");
+                    //  state.enemyPosition = action.newPosition;
+                }
+            },
+        });
+    </script>
+
+    <script src="/js/vr/update-scene-on-tick.js"></script>
+</head>
+
+<body>
+    <a-scene id="scene" loading-screen="enabled: false" update-scene-on-click>
+        <a-assets>
+            <img id="sky" src="/img/space.jpg">
+        </a-assets>
+
+
+
+        <!-- <a-box bind__position="box_00" rotation="0 0 0" color="#ff2e88" shadow></a-box>
+        <a-box bind__position="box_01" rotation="0 0 0" color="#ff2e88" shadow></a-box>
+        <a-box bind__position="box_02" rotation="0 0 0" color="#ff2e88" shadow></a-box>
+        <a-box bind__position="box_03" rotation="0 0 0" color="#ff2e88" shadow></a-box>
+        <a-box bind__position="box_04" rotation="0 0 0" color="#ff2e88" shadow></a-box>
+        <a-box bind__position="box_05" rotation="0 0 0" color="#ff2e88" shadow></a-box>
+        <a-box bind__position="box_06" rotation="0 0 0" color="#ff2e88" shadow></a-box>
+        <a-box bind__position="box_07" rotation="0 0 0" color="#ff2e88" shadow></a-box> -->
+
+        <!-- <a-entity line="start: 0, 1, 0; end: 2 0 -5; color: red"
+          line__2="start: -2, 4, 5; end: 0 4 -3; color: green"></a-entity> -->
+
+        <!-- <a-entity bind-for="for: shoppingItem; in: shoppingList; key: name">
+            <template>
+                <a-entity bind__text="value: shoppingItem.name" data-amount="{{ shoppingItem.amount }}"></a-entity>
+            </template>
+        </a-entity> -->
+
+        <!-- <a-entity light="type: ambient; color: #BBB"></a-entity> -->
+        <a-entity light="type: directional; color: white; intensity: 0.6" position="1 2 1"></a-entity>
+        <a-entity light="type: directional; color: blue; intensity: 1.0" position="1 -5 1"></a-entity>
+
+
+        <a-sky src="#sky" rotation="0 -90 0"></a-sky>
+
+    </a-scene>
+
+    <script>
+        
+        if (findGetParameter("showVR") !== null)
+        {
+            console.log("showVR: " + findGetParameter("showVR"));
+            document.getElementById('scene').setAttribute('vr-mode-ui', 'enabled: false');
+        }
+    </script>
+</body>
+
+</html>

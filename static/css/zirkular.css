@@ -15,8 +15,26 @@ h5 {
     padding-top: 0vh !important;
 }
 
+body {
+    padding-bottom: 0;
+}
+
 main {
     min-height: 90vh;
+}
+
+.main {
+    padding-bottom: 0;
+}
+
+.a-enter-vr-button {
+    position: absolute;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
 }
 
 div.header {
@@ -28,12 +46,28 @@ div.header p {
 }
 
 #home {
-    height: 85vh; 
-    padding-top: 30vh;
+    position: absolute;
+    display: block;
+    top: 40vh;
+    z-index: 1;
+}
+
+#vr-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
 }
 
 .services {
+    position: absolute;
+    top: 90%;
+    display: block;
     text-align: left;
+    z-index: 1;
 }
 
 .vip-projects {
@@ -66,16 +100,28 @@ article .thumbnail img {
     max-height: 100%;
 }
 
+.content {
+    margin-bottom: 5vh;
+}
+
 .content img {
     width: 100%;
     min-height: 0;
 }
 
+footer {
+    width: 50%;
+}
+
 footer .impress {
     position: relative;
-    height: 5vh;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
     font-size: small;
+    z-index: 1;
+}
+
+footer .left {
+    height: 5vh;
 }
 
 footer .impress .left {
