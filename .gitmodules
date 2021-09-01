@@ -1,0 +1,3 @@
+[submodule "themes/website-theme"]
+	path = themes/website-theme
+	url = git@github.com:zirkular/website-theme.git
