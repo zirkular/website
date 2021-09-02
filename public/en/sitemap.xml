@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/projects/future-present-past/</loc>
+    <lastmod>2021-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/projects/deep.dance/</loc>
+    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/log/lorem_ipsum_dolor/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/log/sapien_faucibus/</loc>
+    <lastmod>2020-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/about/erik/</loc>
+    <lastmod>2019-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/log/amet_mauris/</loc>
+    <lastmod>2019-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/log/lorem_ipsum/</loc>
+    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/projects/lorem_ipsum/</loc>
+    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/projects/ok-google/</loc>
+    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/tags/mapping/</loc>
+    <lastmod>2021-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/projects/</loc>
+    <lastmod>2021-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/tags/</loc>
+    <lastmod>2021-08-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://website-one-pearl.vercel.app/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://website-one-pearl.vercel.app/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/tags/xr/</loc>
+    <lastmod>2021-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/tags/ai/</loc>
+    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/tags/light/</loc>
+    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/log/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/about/</loc>
+    <lastmod>2019-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/contact/</loc>
+    <lastmod>2018-03-08T13:24:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/legal/</loc>
+    <lastmod>2018-03-08T13:24:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/privacy/</loc>
+    <lastmod>2018-03-08T13:24:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/</loc>
+    <lastmod>2018-03-08T13:24:22+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://website-one-pearl.vercel.app/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://website-one-pearl.vercel.app/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://website-one-pearl.vercel.app/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://website-one-pearl.vercel.app/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://website-one-pearl.vercel.app/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://website-one-pearl.vercel.app/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://website-one-pearl.vercel.app/series/"
+                />
+  </url>
+  
+</urlset>

@@ -6,9 +6,14 @@ linktitle: Lorem Ipsum
 type:
 - post
 - posts
-title: Getting Started
-eventname: Conference
-eventlocation: Mumbai, India 
+title: Fight (for) Independence
+collab: Costa Compagnie
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+tags:
+- video
+- mapping
+- stage
+- web
 weight: 10
 ---
 

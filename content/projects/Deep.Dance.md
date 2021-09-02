@@ -7,11 +7,14 @@ type:
 - post
 - posts
 title: Deep.Dance
-description: Sagittis purus sit amet volutpat consequat mauris nunc congue nisi
-collab: Jascha Viehstädt
+description: A choreoraphy created by an AI
+collab: Jascha Viehstädt & team
 tags:
 - ai
 - light
+- web
+categories:
+- collab
 weight: 10
 ---
 
