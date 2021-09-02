@@ -1,14 +1,17 @@
 ---
 author:
-  name: "John Doe"
-date: 2020-01-07
-linktitle: Sapien faucibus
+  name: "erik"
+date: 2021-08-07
+linktitle: FUTURE PRESENT PAST
 type:
 - post
 - posts
-title: Sapien faucibus
-eventname: Conference 
-eventlocation: Singapore
+title: FUTURE PRESENT PAST
+collab: Costa Compagnie
+description: Group stipend used to develop a performance in XR.
+tags:
+- xr
+- mapping
 weight: 10
 ---
 

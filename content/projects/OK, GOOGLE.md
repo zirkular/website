@@ -1,14 +1,16 @@
 ---
 author:
-  name: "John Doe"
-date: 2019-10-08
+  name: "erik"
+date: 2018-08-31
 linktitle: Amet Mauris
 type:
 - post
 - posts
-title: Amet Mauris
-eventname: Conference
-eventlocation: San Francisco, CA  
+title: OK, GOOGLE
+collab: Costa Compagnie
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+tags:
+- ai
 weight: 10
 ---
 

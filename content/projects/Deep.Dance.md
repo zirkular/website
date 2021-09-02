@@ -1,14 +1,17 @@
 ---
 author:
-  name: "John Doe"
-date: 2020-10-07
-linktitle: Lorem Ipsum Dolor
+  name: "erik"
+date: 2021-05-07
+linktitle: Deep.Dance
 type:
 - post
 - posts
-title: Lorem Ipsum Dolor
-eventname: Conference
-eventlocation: India
+title: Deep.Dance
+description: Sagittis purus sit amet volutpat consequat mauris nunc congue nisi
+collab: Jascha Viehstädt
+tags:
+- ai
+- light
 weight: 10
 ---
 
